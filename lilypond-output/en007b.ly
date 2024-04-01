@@ -11,136 +11,238 @@ color = #(define-music-function (parser location color) (string?) #{
 \header { } 
 \score  { 
  
-      << \new Staff  = xawyxffzexxwbye { \clef "bass" 
+      << \new Staff  = xawzdfbwecccyya { \clef "bass" 
              \time 4/4
-             fis 1  ~  
+             < cis'  cis'  cis'  c'  > 16   
+             < c'  c'  > 16   
+             < c'  b  > 16   
+             < b  b  > 16   
+             r 16  
+             b 16  
+             c' 16  
+             cis' 16  
+             c' 16  
+             r 16  
+             a 16  
+             bes 16  
+             r 16  
+             cis' 16  
+             c' 16  
+             r 16  
              \bar "|"  %{ end measure 1 %} 
-             fis 1  ~  
+             b 8  
+             b 16  
+             r 16  
+             c' 16  
+             r 8  
+             b 16  
+             r 16  
+             a 16  
+             r 8  
+             c' 16  
+             r 8  
+             c' 16  
+             r 16  
+             c' 16  
+             r 16  
              \bar "|"  %{ end measure 2 %} 
-             fis 1  ~  
+             c' 8  
+             r 8  
+             c' 8  
+             r 16  
+             c' 8  
+             r 8  
+             b 8  
+             r 8  
+             cis' 8  
+             r 8  
+             c' 8  
+             r 16  
              \bar "|"  %{ end measure 3 %} 
-             fis 1  ~  
+             r 16  
+             c' 8  
+             r 8  
+             b 8  
+             r 8  
+             b 8  
+             r 8  
+             c' 8  
+             r 8  
+             b 8  
+             r 16  
              \bar "|"  %{ end measure 4 %} 
-             fis 1  ~  
+             r 16  
+             c' 8  
+             r 8  
+             cis' 8  
+             r 16  
+             c' 8  
+             r 8  
+             b 8  
+             r 8  
              \bar "|"  %{ end measure 5 %} 
-             fis 1  ~  
+             c' 8  
+             r 8  
+             c' 8  
+             r 8  
+             c' 8  
+             r 8  
+             cis' 8  
+             r 8  
              \bar "|"  %{ end measure 6 %} 
-             fis 1  ~  
+             c' 8  
+             r 8  
+             c' 8  
+             r 8  
+             c' 8  
+             r 8.  
+             c' 8  
+             r 16  
              \bar "|"  %{ end measure 7 %} 
-             fis 1  ~  
+             r 8  
+             c' 8  
+             r 4  
+             c' 4  
+             r 8  
+             cis' 4  
+             r 4  
              \bar "|"  %{ end measure 8 %} 
-             fis 1  ~  
+             c' 4  
+             r 4  
+             c' 4  
+             r 8  
+             c' 4  
+             r 4  
+             b 8  ~  
              \bar "|"  %{ end measure 9 %} 
-             fis 1  ~  
+             b 8  
+             r 4  
+             f 4  
+             r 4  
+             ees 4  
+             r 8.  
+             g 8  ~  
              \bar "|"  %{ end measure 10 %} 
-             fis 1  ~  
+             g 8  
+             r 4  
+             gis 4  
+             r 4  
+             fis 4  
+             r 8.  
+             e 16  ~  
              \bar "|"  %{ end measure 11 %} 
-             fis 1  ~  
+             e 8  
+             r 8.  
+             d 8.  
+             r 4  
+             d 8.  
+             r 4  
              \bar "|"  %{ end measure 12 %} 
-             fis 1  ~  
+             r 16  
+             ees 8.  
+             r 4  
+             ees 8.  
+             r 4  
+             d 8.  
              \bar "|"  %{ end measure 13 %} 
-             fis 1  ~  
+             r 8.  
+             c 8.  
+             r 4  
+             b, 8.  
+             r 4  
              \bar "|"  %{ end measure 14 %} 
-             fis 1  ~  
+             bes, 8.  
+             r 8.  
+             c 8.  
+             r 4  
+             ees 8.  
              \bar "|"  %{ end measure 15 %} 
-             fis 1  ~  
+             r 4  
+             d 8.  
+             r 8.  
+             ees 8.  
+             r 8.  
              \bar "|"  %{ end measure 16 %} 
-             fis 1  ~  
+             r 16  
+             e 8.  
+             r 4  
+             ees 4  
+             r 8.  
+             e 16  ~  
              \bar "|"  %{ end measure 17 %} 
-             fis 1  ~  
+             e 8.  
+             r 8.  
+             e 4  
+             r 4  
+             cis 4  ~  
              \bar "|"  %{ end measure 18 %} 
-             fis 1  ~  
+             cis 8  
+             r 4  
+             c 4  
+             r 8.  
+             cis 4  
              \bar "|"  %{ end measure 19 %} 
-             fis 1  ~  
+             r 4  
+             e 4  
+             r 8.  
+             f 4  
+             r 16  
              \bar "|"  %{ end measure 20 %} 
-             fis 1  ~  
+             r 8.  
+             e 4  
+             r 4  
+             fis 4  
+             r 16  
              \bar "|"  %{ end measure 21 %} 
-             fis 1  ~  
+             r 4  
+             f 4  
+             r 4  
+             d 4  
+             r 8  
              \bar "|"  %{ end measure 22 %} 
-             fis 1  ~  
+             r 8.  
+             ees 4  
+             r 4  
+             cis 4  
+             r 16  
              \bar "|"  %{ end measure 23 %} 
-             fis 1  ~  
+             r 8.  
+             cis 4  
+             r 4  
+             r 16  
+             ees 4  
              \bar "|"  %{ end measure 24 %} 
-             fis 1  ~  
+             r 4  
+             ees 4  
+             r 4  
+             r 16  
+             ees 8.  ~  
              \bar "|"  %{ end measure 25 %} 
-             fis 1  ~  
+             ees 16  
+             r 2  
+             d 4  
+             r 2  
+             cis 8  ~  
              \bar "|"  %{ end measure 26 %} 
-             fis 1  ~  
+             cis 8  
+             r 2  
+             c 4  
+             r 2  
              \bar "|"  %{ end measure 27 %} 
-             fis 1  ~  
+             b, 4  
+             r 4  
+             r 16  
+             d 4  ~  
+             d 16  
+             r 8  
              \bar "|"  %{ end measure 28 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 29 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 30 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 31 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 32 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 33 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 34 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 35 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 36 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 37 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 38 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 39 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 40 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 41 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 42 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 43 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 44 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 45 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 46 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 47 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 48 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 49 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 50 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 51 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 52 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 53 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 54 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 55 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 56 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 57 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 58 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 59 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 60 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 61 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 62 %} 
-             fis 1  ~  
-             \bar "|"  %{ end measure 63 %} 
-             fis 1  
-             \bar "|."  %{ end measure 64 %} 
+             r 8  
+             cis 4  ~  
+             cis 16  
+             r 4  
+             b, 4  ~  
+             b, 16  
+             \bar "|."  %{ end measure 29 %} 
               } 
             
  
@@ -151,8 +253,21 @@ color = #(define-music-function (parser location color) (string?) #{
 \paper { }
 \layout {
   \context {
+    \Score
+    \override SystemSeparator.break-visibility = ##(#f #f #f)
+    ragged-bottom = ##f
+    ragged-last-bottom = ##f
+  }
+}
+
+  \context {
     \RemoveEmptyStaffContext
     \override VerticalAxisGroup #'remove-first = ##t
   }
  }
  
+\paper {
+  min-systems-per-page = #5
+  system-system-spacing.padding = #2
+  system-system-spacing.stretchability = #15
+}
